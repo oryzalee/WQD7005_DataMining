@@ -5,12 +5,13 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 
 ## Table of contents
 * [Introduction](#Introduction)
+* [Objectives](#Objectives)
 * [Milestone 1 - Data Aquisition & Web Crawling](#Milestone-1---Data-Aquisition-&-Web-Crawling)
 * [Milestone 2 - Empty Placeholder]
 * [Milestone 3 - Empty Placeholder]
 * [Milestone 4 - Empty Placeholder]
 * [Milestone 5 - Empty Placeholder]
-* [YouTube Links] (#YouTube Links)
+* [YouTube Links] (#YouTube-Links)
 * [References](#References)
 
 
@@ -21,14 +22,24 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 &emsp;&emsp;The largest derivatives market for CPO is Bursa Malaysian Derivatives. The prices are affected mainly by demand and supply of CPO, and other external factors such as the prices of cooking oil and oil seeds all around the world. Climate variability have a direct impact on the supply of CPO, thus indirectly affect the price of CPO futures. Since Indonesia and Malaysia already have 87% of the production market cap, any climate changes in these two neighbouring countries would surely have some sort of impact on the CPO yield, and indirectly so on the CPO futures. 
 
 ![OilPalmPlantationMap](https://raw.githubusercontent.com/oryzalee8871/WQD7005_DataMining/master/A_Raw_Data/GlobalForestWatchDataset/Map/PalmOilPlantationMap.PNG)
+Source: [https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)
 
+## Objectives
+<li> placeholder
 
 ## Milestone 1 - Data Aquisition & Web Crawling
+For this project, the important datas are CPO prices, weather data and related news. Selenium were used for web scraping weather data, CPO prices and company stock prices. Scrappy was used to web scrap related palm oil industry news from a reputable news site. A few other non-significant data were acquired thru means of API and web download.
 
-#### Data Sources:
-<li> 
+#### Main Data Sources:
+<li> Daily Trading Days CPO Prices on Bursa Malaysia market and MCX India market. Data Source: [investing.com](investing.com)
+<li> Daily Monthly Data including temperature of mean, max and min variants, relative humidity and total rainfall. The data encompassed over 80 locations in Malaysia and Indonesia with data starting as early as 2010 to 2019. Data Source: [en.tutiempo.net](en.tutiempo.net)
+<li> Monthly Malaysia CPO production from 2014 to 2020. Data Source: [????????](????????)
+<li> Daily Palm oil industry related news title from year 2009 to 2020. Data Source: [www.theedgemarkets.com](www.theedgemarkets.com)
 
-
+#### Additional data to explore:
+<li> Stock prices of top five major palm oil key compananies. Data Source: [investing.com](investing.com)
+<li> Daily weather data from DarkSky API with more recent dates data (from 2018 onwards) with daily sunshine time and uv index. Data Source: [darksky.net](darksky.net)
+<li> Land use datasets on Oil_palm_concessions, Palm_Oil_Mills, RSPO_mills , RSPOcertified_oil_palm_supply-bases_in_Indonesia and Sarawak_oil_palm_concessions. Data Source: [data.globalforestwatch.org](data.globalforestwatch.org)
     
 ## YouTube Links
 Documentation of the processes and tools are done thru presentation on video recording, then uploaded to youtube
@@ -37,7 +48,7 @@ Documentation of the processes and tools are done thru presentation on video rec
     
 ## References 
 <a id="1">[1]</a> 
-Santhia, V. (2017). Essential Palm Oil Statistics 2017. Palm Oil Analytics. Available online: www.palmoilanalytics.com/files/epos-final-59.pdf (accessed on 29 Feb 2017). 
+Santhia, V. (2017). Essential Palm Oil Statistics 2017. Palm Oil Analytics.
 <br>
 <a id="2">[2]</a> 
 Oettli, P., Behera, S. K., & Yamagata, T. (2018). Climate based predictability of oil palm tree yield in Malaysia. Scientific reports, 8(1), 1-13.
