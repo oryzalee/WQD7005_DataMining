@@ -33,7 +33,7 @@ For this project, the important datas are CPO prices, weather data and related n
 #### Main Data Sources:
 <li> Daily Trading Days CPO Prices on Bursa Malaysia market and MCX India market. Data Source: https://investing.com
 <li> Daily Monthly Data including temperature of mean, max and min variants, relative humidity and total rainfall. The data encompassed over 80 locations in Malaysia and Indonesia with data starting as early as 2010 to 2019. Data Source: https://en.tutiempo.net
-<li> Monthly Malaysia CPO production from 2014 to 2020. Data Source: [????????]
+<li> Monthly Malaysia CPO production from 2014 to 2020. Data Source: http://mpoc.org.my/monthly-palm-oil-trade-statistics-2013/
 <li> Daily Palm oil industry related news title from year 2009 to 2020. Data Source: https://www.theedgemarkets.com
 
 #### Additional data to explore:
