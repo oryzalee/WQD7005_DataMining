@@ -20,7 +20,7 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 <br><br>
 &emsp;&emsp;The largest derivatives market for CPO is Bursa Malaysian Derivatives. The prices are affected mainly by demand and supply of CPO, and other external factors such as the prices of cooking oil and oil seeds all around the world. Climate variability have a direct impact on the supply of CPO, thus indirectly affect the price of CPO futures. Since Indonesia and Malaysia already have 87% of the production market cap, any climate changes in these two neighbouring countries would surely have some sort of impact on the CPO yield, and indirectly so on the CPO futures. 
 
-![OilPalmPlantationMap](/A_Raw Data/GlobalForestWatchDataset/Map/PalmOilPlantationMap.PNG)
+![OilPalmPlantationMap](../A_RawData/GlobalForestWatchDataset/Map/PalmOilPlantationMap.PNG)
 
 
 ## Milestone 1 - Data Aquisition & Web Crawling
