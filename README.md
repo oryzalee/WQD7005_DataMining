@@ -39,7 +39,7 @@ For this project, the important datas are CPO prices, weather data and related n
 #### Additional data to explore:
 <li> Stock prices of top five major palm oil key compananies. Data Source: https://investing.com
 <li> Daily weather data from DarkSky API with more recent dates data (from 2018 onwards) with daily sunshine time and uv index. Data Source: https://darksky.net
-<li> Land use datasets on Oil_palm_concessions, Palm_Oil_Mills, RSPO_mills , RSPOcertified_oil_palm_supply-bases_in_Indonesia and Sarawak_oil_palm_concessions. Data Source: data.globalforestwatch.org
+<li> Land use datasets on Oil_palm_concessions, Palm_Oil_Mills, RSPO_mills , RSPOcertified_oil_palm_supply-bases_in_Indonesia and Sarawak_oil_palm_concessions. Data Source: https://data.globalforestwatch.org
     
 ## YouTube Links
 Documentation of the processes and tools are done thru presentation on video recording, then uploaded to youtube
