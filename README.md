@@ -11,7 +11,7 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 * [Milestone 3 - Empty Placeholder]
 * [Milestone 4 - Empty Placeholder]
 * [Milestone 5 - Empty Placeholder]
-* [YouTube Links] (#YouTube-Links)
+* [YouTube Links](#YouTube-Links)
 * [References](#References)
 
 
@@ -25,7 +25,11 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 Source: [https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)
 
 ## Objectives
-<li> placeholder
+The primary goal of this project is to test the following hypothesis
+<li> Weather data significantly affect / correlate to palm oil production yield
+<li> Weather data significantly affect / correlate to CPO commodity prices
+<li> Palm oil industry related news sentiment significantly affect / correlate to CPO commodity prices
+
 
 ## Milestone 1 - Data Aquisition & Web Crawling
 For this project, the important datas are CPO prices, weather data and related news. Selenium were used for web scraping weather data, CPO prices and company stock prices. Scrappy was used to web scrap related palm oil industry news from a reputable news site. A few other non-significant data were acquired thru means of API and web download.
