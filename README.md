@@ -7,7 +7,7 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 * [Introduction](#Introduction)
 * [Objectives](#Objectives)
 * [Milestone 1 - Data Aquisition & Web Crawling](#Milestone-1---Data-Aquisition-&-Web-Crawling)
-* [Milestone 2 - Store Data into Hive DataWarehouse](#Milestone-2---Store-Data-into-Hive-DataWarehouse)
+* [Milestone 2 - Store Data into Hive DataWarehouse](#Milestone-2---DataWarehouse & DataLake Implementation)
 * [Milestone 3 - Empty Placeholder]
 * [Milestone 4 - Empty Placeholder]
 * [Milestone 5 - Empty Placeholder]
@@ -45,7 +45,9 @@ For this project, the important datas are CPO prices, weather data and related n
 <li> Daily weather data from DarkSky API with more recent dates data (from 2018 onwards) with daily sunshine time and uv index. Data Source: https://darksky.net
 <li> Land use datasets on Oil_palm_concessions, Palm_Oil_Mills, RSPO_mills , RSPOcertified_oil_palm_supply-bases_in_Indonesia and Sarawak_oil_palm_concessions. Data Source: https://data.globalforestwatch.org
     
-## Milestone 2 - Store Data into Hive DataWarehouse
+## Milestone 2 - DataWarehouse & DataLake Implementation
+
+#### Store Data into Hive DataWarehouse
 <li>(1) Download Horton Sandbox in this link https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
 <li>(2) Open the Horton Sandbox docker in Oracle VirtualBox
 <li>(3) Make sure to have a least 8GB Free RAM on your PC
@@ -62,11 +64,19 @@ For this project, the important datas are CPO prices, weather data and related n
 <li>(9) Check your data in table with SQL Query [SELECT * FROM YourTableName LIMIT 10] to check first 10th rows    
 
 
+#### Setup Datalake on the cloud using MinIO and AWS EC2
+<li>(1) Create an EC2 ubuntu instance on AWS, and allow port forwarding on port 9000.
+<li>(2) Setup credential on local machine to ssh into EC2 instance.
+<li>(3) Setup standalone MinIO following quickstart guide from their documentation page: https://docs.min.io/
+<li>(3) Use MinIO SDK for python to interact with MinIO datalake for bucket creation, data uploads and so on.
+<li>(4) Use AWS S3 SDK for python to query data directly from MinIO datalake using SQL statement and output into dataframe by using Panda
+
     
 ## YouTube Links
 Documentation of the processes and tools are done thru presentation on video recording, then uploaded to youtube
-<li> Milestone1 Web Scrapping https://www.youtube.com/watch?v=m7Lqda_E3Fg&feature=youtu.be
-<li> Milestone2 Store Data into Hive Data warehouse  https://www.youtube.com/watch?v=UUWTioegn8M&feature=youtu.be
+<li> Milestone1 - Web Scrapping https://www.youtube.com/watch?v=m7Lqda_E3Fg&feature=youtu.be
+<li> Milestone2A - Store Data into Hive Data warehouse  https://www.youtube.com/watch?v=UUWTioegn8M&feature=youtu.be
+<li> Milestone2B - Setup Datalake on the cloud using MinIO and AWS EC2  https://youtu.be/If27_zNYkx8
     
     
 ## References 
