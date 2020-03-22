@@ -46,6 +46,7 @@ For this project, the important datas are CPO prices, weather data and related n
 <li> Land use datasets on Oil_palm_concessions, Palm_Oil_Mills, RSPO_mills , RSPOcertified_oil_palm_supply-bases_in_Indonesia and Sarawak_oil_palm_concessions. Data Source: https://data.globalforestwatch.org
     
 ## Milestone 2 - DataWarehouse & DataLake Implementation
+In Milestone 2 we attempted two different file storage system, one using the well establish Hadoop HDFS file system with HIVE, and second using S3 file storage system using MinIO with AWS EC2.
 
 #### Store Data into Hive DataWarehouse
 <li>(1) Download Horton Sandbox in this link https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
@@ -74,8 +75,8 @@ For this project, the important datas are CPO prices, weather data and related n
     
 ## YouTube Links
 Documentation of the processes and tools are done thru presentation on video recording, then uploaded to youtube
-<li> Milestone1 - Web Scrapping https://www.youtube.com/watch?v=m7Lqda_E3Fg&feature=youtu.be
-<li> Milestone2A - Store Data into Hive Data warehouse  https://www.youtube.com/watch?v=UUWTioegn8M&feature=youtu.be
+<li> Milestone1 - Web Scrapping https://youtu.be/m7Lqda_E3Fg
+<li> Milestone2A - Store Data into Hive Data warehouse  https://youtu.be/UUWTioegn8M
 <li> Milestone2B - Setup Datalake on the cloud using MinIO and AWS EC2  https://youtu.be/If27_zNYkx8
     
     
