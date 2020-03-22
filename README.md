@@ -75,7 +75,7 @@ In Milestone 2 we attempted two different file storage system, one using the wel
     
 ## YouTube Links
 Documentation of the processes and tools are done thru presentation on video recording, then uploaded to youtube
-<li> Milestone1 - Web Scrapping https://youtu.be/m7Lqda_E3Fg
+<li> Milestone1A & 1B - Web Scrapping https://youtu.be/m7Lqda_E3Fg
 <li> Milestone2A - Store Data into Hive Data warehouse  https://youtu.be/UUWTioegn8M
 <li> Milestone2B - Setup Datalake on the cloud using MinIO and AWS EC2  https://youtu.be/If27_zNYkx8
     
