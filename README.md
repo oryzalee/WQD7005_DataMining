@@ -7,7 +7,7 @@ This is a Data Mining course work project in fulfillment to Master's of Data Sci
 * [Introduction](#Introduction)
 * [Objectives](#Objectives)
 * [Milestone 1 - Data Aquisition & Web Crawling](#Milestone-1---Data-Aquisition-&-Web-Crawling)
-* [Milestone 2 - Store Data into Hive DataWarehouse](#Milestone 2 - Store Data into Hive DataWarehouse)
+* [Milestone 2 - Store Data into Hive DataWarehouse](#Milestone-2---Store-Data-into-Hive-DataWarehouse)
 * [Milestone 3 - Empty Placeholder]
 * [Milestone 4 - Empty Placeholder]
 * [Milestone 5 - Empty Placeholder]
