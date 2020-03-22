@@ -46,12 +46,12 @@ For this project, the important datas are CPO prices, weather data and related n
 <li> Land use datasets on Oil_palm_concessions, Palm_Oil_Mills, RSPO_mills , RSPOcertified_oil_palm_supply-bases_in_Indonesia and Sarawak_oil_palm_concessions. Data Source: https://data.globalforestwatch.org
     
 ## Milestone 2 - Store Data into Hive DataWarehouse
-(1) Download Horton Sandbox in this link https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
-(2) Open the Horton Sandbox docker in Oracle VirtualBox
-(3) Make Sure to have a least 8GB Free RAM on your PC
-(4) Sign in with default username "root" and password "hadoop", then change your password later on
-(5) open Sandbox terminal with local host port 4200
-(6) copy files from local machine to Sandbox using command ['scp -P 2222 DataSetPath root@localhost:/root']
+<li>(1) Download Horton Sandbox in this link https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
+<li>(2) Open the Horton Sandbox docker in Oracle VirtualBox
+<li>(3) Make Sure to have a least 8GB Free RAM on your PC
+<li>(4) Sign in with default username "root" and password "hadoop", then change your password later on
+<li>(5) open Sandbox terminal with local host port 4200
+<li>(6) copy files from local machine to Sandbox using command ['scp -P 2222 DataSetPath root@localhost:/root']
 
 
     
