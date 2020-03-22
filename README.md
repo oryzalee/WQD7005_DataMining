@@ -51,7 +51,15 @@ For this project, the important datas are CPO prices, weather data and related n
 <li>(3) Make Sure to have a least 8GB Free RAM on your PC
 <li>(4) Sign in with default username "root" and password "hadoop", then change your password later on
 <li>(5) open Sandbox terminal with local host port 4200
-<li>(6) copy files from local machine to Sandbox using command ['scp -P 2222 DataSetPath root@localhost:/root']
+<li>(6) copy files from local machine to Sandbox using command [scp -P 2222 'DataSetPath' root@localhost:/root]
+<li>(7) Push Dataset from sandbox to Hadoop File System (HDFS) using command [hdfs dfs -put 'DataSetPath' 'HDFS Path']
+<li>(8) Create Table in hive using command [
+<li>    CREATE TABLE YourTableName (
+<li>    columnName1 STRING, columnName2 INT, etc ) 
+<li>    row format delimited 
+<li>    fields terminated by ','
+<li>    Location 'HDFS Path which store the dataset';
+<li>(9) Check your data in table with SQL Query [SELECT * FROM YourTableName LIMIT 10] to check first 10th rows    
 
 
     
