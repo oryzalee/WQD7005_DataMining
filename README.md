@@ -48,6 +48,7 @@ For this project, the important datas are CPO prices, weather data and related n
 ## YouTube Links
 Documentation of the processes and tools are done thru presentation on video recording, then uploaded to youtube
 <li> Milestone1 Web Scrapping https://www.youtube.com/watch?v=m7Lqda_E3Fg&feature=youtu.be
+<li> Milestone2 Upload Dataset to Hive Database    
     
     
 ## References 
