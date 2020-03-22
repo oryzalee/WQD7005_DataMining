@@ -48,7 +48,7 @@ For this project, the important datas are CPO prices, weather data and related n
 ## Milestone 2 - DataWarehouse & DataLake Implementation
 In Milestone 2 we attempted two different file storage system, one using the well establish Hadoop HDFS file system with HIVE, and second using S3 file storage system using MinIO with AWS EC2.
 
-#### Store Data into Hive DataWarehouse
+#### 1. Store Data into Hive DataWarehouse
 <li>(1) Download Horton Sandbox in this link https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
 <li>(2) Open the Horton Sandbox docker in Oracle VirtualBox
 <li>(3) Make sure to have a least 8GB Free RAM on your PC
@@ -65,7 +65,7 @@ In Milestone 2 we attempted two different file storage system, one using the wel
 <li>(9) Check your data in table with SQL Query [SELECT * FROM YourTableName LIMIT 10] to check first 10th rows    
 
 
-#### Setup Datalake on the cloud using MinIO and AWS EC2
+#### 2. Setup Datalake on the cloud using MinIO and AWS EC2
 <li>(1) Create an EC2 ubuntu instance on AWS, and allow port forwarding on port 9000.
 <li>(2) Setup credential on local machine to ssh into EC2 instance.
 <li>(3) Setup standalone MinIO following quickstart guide from their documentation page: https://docs.min.io/
