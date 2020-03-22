@@ -53,12 +53,12 @@ For this project, the important datas are CPO prices, weather data and related n
 <li>(5) open Sandbox terminal with local host port 4200
 <li>(6) copy files from local machine to Sandbox using command [scp -P 2222 'DataSetPath' root@localhost:/root]
 <li>(7) Push Dataset from sandbox to Hadoop File System (HDFS) using command [hdfs dfs -put 'Sandbox DataSetPath' 'HDFS Path']
-<li>(8) Create Table in hive using command [
+<li>(8) Create Table in hive using below command:
 <li>    CREATE TABLE YourTableName (
 <li>    columnName1 STRING, columnName2 INT, etc ) 
 <li>    ROW FORMAT DELIMITED 
 <li>    FIELDS TERMINATED BY ','
-<li>    LOCATION 'HDFS Path which store the dataset'; ]
+<li>    LOCATION 'HDFS Path which store the dataset';
 <li>(9) Check your data in table with SQL Query [SELECT * FROM YourTableName LIMIT 10] to check first 10th rows    
 
 
